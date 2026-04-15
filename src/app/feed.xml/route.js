@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/api';
 
 export async function GET() {
   const posts = getAllPosts(['title', 'date', 'slug', 'excerpt', 'author']);
-  const site_url = 'https://UNIIMIZE.github.io/Dripping-ink';
+  const site_url = 'https://UNIIMIZE.github.io/Dripping-Ink';
 
   const feedItems = posts.map((post) => {
     return `

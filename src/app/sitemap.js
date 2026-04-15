@@ -1,7 +1,7 @@
 import { getAllPosts } from '@/lib/api';
 
 export default function sitemap() {
-  const baseUrl = 'https://your-github-username.github.io/poetry-blog';
+  const baseUrl = 'https://UNIIMIZE.github.io/Dripping-ink';
   const posts = getAllPosts(['slug', 'date']);
   
   const postUrls = posts.map((post) => ({

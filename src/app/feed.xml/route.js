@@ -2,7 +2,7 @@ import { getAllPosts } from '@/lib/api';
 
 export async function GET() {
   const posts = getAllPosts(['title', 'date', 'slug', 'excerpt', 'author']);
-  const site_url = 'https://your-github-username.github.io/poetry-blog';
+  const site_url = 'https://UNIIMIZE.github.io/Dripping-ink';
 
   const feedItems = posts.map((post) => {
     return `

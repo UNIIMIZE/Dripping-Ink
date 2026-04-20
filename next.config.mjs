@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Dripping-ink',
+  basePath: '/Dripping-Ink',
   images: {
     unoptimized: true,
   },
